@@ -10,14 +10,15 @@ Arcade Vault — plataforma para juegos online, competir por puntuación. Spanis
 
 Fresh `create-next-app` scaffold (App Router, TypeScript, Tailwind v4). No custom routes/components/tests exist yet beyond `app/layout.tsx` and `app/page.tsx`.
 
-## Commands
-
-- `npm run dev` — start dev server (Turbopack)
-- `npm run build` — production build
-- `npm run start` — run production build
-- `npm run lint` — ESLint (flat config, `eslint-config-next` core-web-vitals + typescript)
-
 No test runner configured yet.
+
+## Stack
+- **React 19.2.8**
+- **Tailwind CSS v4**
+- **TypeScript**
+
+## Skills
+Usa siempre el /front-design para diseñar interfacez de usuario
 
 ## Architecture
 
