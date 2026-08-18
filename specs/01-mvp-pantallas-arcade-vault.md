@@ -1,6 +1,6 @@
 # 01 — MVP Pantallas Arcade Vault
 
-**Estado:** Approved
+**Estado:** Implementado
 **Depende de:** —
 **Fecha:** 2026-08-17
 
@@ -81,18 +81,18 @@ export function saveScore(entry: { game: string; score: number; name: string }):
 
 ## Criterios de aceptación
 
-- [ ] `npm run dev` levanta la app y `/` muestra la biblioteca con hero, buscador y grid de 8 juegos.
-- [ ] Buscar por nombre y filtrar por categoría actualiza el grid sin recargar la página.
-- [ ] Click en una tarjeta o "JUGAR" navega a `/juego/[id]` con datos correctos del juego.
-- [ ] `/juego/[id]` muestra leaderboard con 10 filas ordenadas por puntuación descendente.
-- [ ] "JUGAR AHORA" navega a `/juego/[id]/jugar`; el HUD incrementa la puntuación automáticamente cada ~220ms.
-- [ ] Pausa detiene el incremento de puntuación; reanudar lo retoma.
-- [ ] "FIN" abre el modal de fin de partida con la puntuación final.
-- [ ] Guardar puntuación en el modal la persiste en `localStorage` bajo `av_scores` y muestra el toast de confirmación.
-- [ ] `/salon` muestra podio y tabla por cada juego del catálogo al cambiar de tab.
-- [ ] No existe la ruta `/auth` ni ninguna referencia a sesión de usuario o `av_user` en el código.
-- [ ] El diseño visual (colores neón, tipografía pixel/mono, CRT, scanlines) coincide con `references/templates/Arcade Vault.html`.
-- [ ] Ningún archivo de `references/templates/` es importado ni referenciado desde el código de `app/`.
+- [x] `npm run dev` levanta la app y `/` muestra la biblioteca con hero, buscador y grid de 8 juegos.
+- [x] Buscar por nombre y filtrar por categoría actualiza el grid sin recargar la página.
+- [x] Click en una tarjeta o "JUGAR" navega a `/juego/[id]` con datos correctos del juego.
+- [x] `/juego/[id]` muestra leaderboard con 10 filas ordenadas por puntuación descendente.
+- [x] "JUGAR AHORA" navega a `/juego/[id]/jugar`; el HUD incrementa la puntuación automáticamente cada ~220ms.
+- [x] Pausa detiene el incremento de puntuación; reanudar lo retoma.
+- [x] "FIN" abre el modal de fin de partida con la puntuación final.
+- [x] Guardar puntuación en el modal la persiste en `localStorage` bajo `av_scores` y muestra el toast de confirmación.
+- [x] `/salon` muestra podio y tabla por cada juego del catálogo al cambiar de tab.
+- [x] No existe la ruta `/auth` ni ninguna referencia a sesión de usuario o `av_user` en el código.
+- [x] El diseño visual (colores neón, tipografía pixel/mono, CRT, scanlines) coincide con `references/templates/Arcade Vault.html`.
+- [x] Ningún archivo de `references/templates/` es importado ni referenciado desde el código de `app/`.
 
 ## Decisiones tomadas y descartadas
 
